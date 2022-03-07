@@ -1,0 +1,16 @@
+.circle{
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: cornflowerblue;
+}
+
+@keyframes change{
+    0%{background:cornflowerblue}
+    100%{background:rgb(255, 0, 0)}
+}
+
+.circle.active{
+    animation: change 1s infinite alternate linear;
+}

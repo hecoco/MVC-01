@@ -1,0 +1,11 @@
+.square{
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    background: aquamarine;
+    transition: transform 1s;
+
+}
+.square.active{
+    transform:translateX(10vw);
+}
